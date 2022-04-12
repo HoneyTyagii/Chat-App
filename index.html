@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat app</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+    <section class="chat_section">
+        <div class="brand">
+            <img src="/wassup.png" alt="">
+            <h1>Let's Chat</h1>
+        </div>
+
+        <div class="message_area">
+            <div class="message incoming">
+                <h4>Admin</h4>
+                <p>Open the link in another window and chat with it.</p>
+            </div>
+            
+        </div>
+        <div>
+            <textarea name="" id="textarea" cols="30" rows="1" placeholder="Write a message here..."></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+
+</body>
+</html>
